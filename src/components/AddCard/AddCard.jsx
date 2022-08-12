@@ -49,7 +49,16 @@ export const AddCard = ({ onTogle, card }) => {
     } else {
       setBtnDisablet(true);
     }
-  });
+  }, [
+    services,
+    cardType,
+    bankName,
+    cardNumber,
+    expDate,
+    cvv,
+    amount,
+    currency,
+  ]);
 
   const inputName = {
     services: setServices,

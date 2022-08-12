@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useDeleteCashMutation } from 'redux/walletApi';
-import { AddCard } from 'components/AddCard/AddCard';
 import { AddCash } from 'components/AddCash/AddCash';
 import s from './CashElement.module.css';
 export const CashElement = props => {

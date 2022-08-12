@@ -30,7 +30,7 @@ export const AddCash = ({ onTogle, cash }) => {
     } else {
       setBtnDisablet(true);
     }
-  });
+  }, [setBtnDisablet, amount, currency]);
 
   const inputName = {
     amount: setAmount,

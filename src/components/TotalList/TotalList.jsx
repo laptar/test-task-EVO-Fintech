@@ -1,12 +1,9 @@
 import { useGetCashQuery, useGetCardsQuery } from 'redux/walletApi';
-import { useDispatch, useSelector } from 'react-redux';
 import { useMemo } from 'react';
 import { nanoid } from 'nanoid';
 
 import { WalletItem } from 'components/WalletItem/WalletItem';
 export const TotalList = () => {
-  const dispatch = useDispatch();
-
   const { data: cashList = [] } = useGetCashQuery();
   const { data: cardList = [] } = useGetCardsQuery();
 

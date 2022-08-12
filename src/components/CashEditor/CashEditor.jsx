@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 import { AddCash } from 'components/AddCash/AddCash';
 import { CashElement } from 'components/CashElement/CashElement';
-import { CardElement } from 'components/CardElement/CardElement';
 import { useGetCashQuery } from 'redux/walletApi';
 
 export const CashEditor = () => {
