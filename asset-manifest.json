@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-task-EVO-Fintech/static/css/main.51858668.css",
+    "main.js": "/test-task-EVO-Fintech/static/js/main.59244f69.js",
+    "index.html": "/test-task-EVO-Fintech/index.html",
+    "main.51858668.css.map": "/test-task-EVO-Fintech/static/css/main.51858668.css.map",
+    "main.59244f69.js.map": "/test-task-EVO-Fintech/static/js/main.59244f69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51858668.css",
+    "static/js/main.59244f69.js"
+  ]
+}
