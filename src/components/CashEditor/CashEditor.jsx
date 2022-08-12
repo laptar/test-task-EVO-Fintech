@@ -15,7 +15,7 @@ export const CashEditor = () => {
     <div>
       {!showAddCash && (
         <button type="button" onClick={handleTogleAddCard}>
-          Додати картку
+          Додати готівку
         </button>
       )}
       {showAddCash && <AddCash onTogle={handleTogleAddCard} />}
