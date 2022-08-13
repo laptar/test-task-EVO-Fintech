@@ -11,8 +11,18 @@
 .type {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
+.cardNum {
+  display: flex;
+  margin-bottom: 10px;
+}
+.cardNum p {
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
 .btnList {
   display: flex;
   flex-direction: column;
